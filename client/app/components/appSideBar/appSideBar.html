@@ -1,0 +1,6 @@
+<md-sidenav md-is-locked-open="true">
+  <md-input-container class = "md-block">
+      <label>{{ SharedData.sidebarData }}</label>
+      <input ng-model="SharedData.sidebarData" ng-change="sidebar.homeText()">
+    </md-input-container>
+</md-sidenav>

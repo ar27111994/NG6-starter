@@ -10,6 +10,7 @@
     "angular-material": "^1.1.6",
     "angular-messages": "^1.6.8",
     "angular-ui-router": "^1.0.0-beta.1",
+    "gojs": "^1.8.10",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {

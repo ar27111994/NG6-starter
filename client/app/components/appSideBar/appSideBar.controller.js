@@ -3,6 +3,7 @@ class AppSideBarController {
     "ngInject";
     this.SharedData = SharedDataService;
     $scope.SharedData = SharedDataService;
+    $scope.SharedData.diagram = SharedDataService.diagram
   }
 
   homeText() {

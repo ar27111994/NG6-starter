@@ -2,5 +2,6 @@
   <md-input-container class = "md-block">
       <label>{{ SharedData.sidebarData }}</label>
       <input ng-model="SharedData.sidebarData" ng-change="sidebar.homeText()">
-    </md-input-container>
+  </md-input-container>
+  Selected node: {{SharedData.diagram.selectedNodeData.key}}  <input type="text" ng-model="SharedData.diagram.selectedNodeData.name" class="ng-pristine ng-untouched ng-valid">
 </md-sidenav>
